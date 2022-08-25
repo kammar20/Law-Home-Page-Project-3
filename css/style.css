@@ -1,0 +1,155 @@
+/**! Utility **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  background-color: var(--body-color);
+  color: var(--white);
+}
+
+:root {
+  --white: #ffffff;
+  --off-white: #b0afaa;
+  --body-color: #2b2922;
+  --btn-color: #9d8d36;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*! Header  */
+.head {
+  padding: 5rem 10rem;
+  margin-bottom: 5rem;
+}
+
+/** Navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+/* logo */
+.logo {
+  width: 12rem;
+}
+
+/* nav menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+/* nav list */
+.nav-list {
+  font-size: 2rem;
+  margin-left: 5rem;
+  color: var(--off-white);
+}
+
+.nav-list.active {
+  font-size: 2.2rem;
+  color: var(--white);
+}
+
+/* nav btn */
+.btn-style {
+  display: inline-block;
+  padding: 1.3rem 3rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  border-radius: 0.6rem;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+}
+
+/** Tagline  */
+.tagline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 5rem; */
+}
+
+.tagline h1 {
+  width: 45%;
+  font-size: 8rem;
+}
+
+.tagline p {
+  width: 35%;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--off-white);
+}
+
+/*! section 1  */
+.sec1 {
+  width: 100%;
+  height: 70rem;
+}
+
+.sec1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*! Section 2 */
+.sec2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/** Arrow wrapper  */
+.arrow-wrapper {
+  display: flex;
+}
+
+/* left and right arrow container */
+.left-arrow,
+.right-arrow {
+  width: 12rem;
+  height: 12rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--btn-color);
+}
+
+.left-arrow {
+  background-color: #39372d;
+}
+
+/* arrow icon */
+.arrow-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 1px solid var(--btn-color);
+}
+
+.right-arrow .arrow-icon {
+  border: 1px solid var(--white);
+}
