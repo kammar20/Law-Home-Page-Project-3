@@ -18,7 +18,7 @@ The Home page contains:
 
 &emsp; &ensp; `note` This site is not responsive.
 
-&emsp; &ensp; &ensp;[Live Preview](law-home-landingpage.netlify.app)
+&emsp; &ensp; &ensp;[Live Preview](https://law-home-landingpage.netlify.app)
 
 ## 📸 Screenshot
 
